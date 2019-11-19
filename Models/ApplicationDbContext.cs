@@ -7,7 +7,7 @@ namespace CONTACTS.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Allcontacts> Allcontacts { get; set; }
-        public DbSet<Gender> Genders { get; set; }
+        public DbSet<AllGender> Genders { get; set; }
 
 
         public ApplicationDbContext()

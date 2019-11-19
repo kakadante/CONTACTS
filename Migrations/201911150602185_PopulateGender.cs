@@ -7,13 +7,13 @@
     {
         public override void Up()
         {
-            Sql("INSERT INTO Gender(Gendername)VALUES('Male')");
-            Sql("INSERT INTO Gender(Gendername)VALUES('Female')");
+            Sql("INSERT INTO AllGender(Gendername)VALUES('Male')");
+            Sql("INSERT INTO AllGender(Gendername)VALUES('Female')");
         }
         
         public override void Down()
         {
-            Sql("DELETE FROM Gender WHERE Id IN(1,2)");
+            Sql("DELETE FROM AllGender WHERE Id IN(1,2)");
         }
     }
 }

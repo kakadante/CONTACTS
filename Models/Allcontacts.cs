@@ -22,7 +22,7 @@ namespace CONTACTS.Models
         public string Email { get; set; }
 
 
-        public Gender Gender { get; set; }
+        public AllGender Gender { get; set; }
         public int GenderId { get; set; }
     }
 }

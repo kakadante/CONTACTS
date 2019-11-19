@@ -7,12 +7,12 @@ using System.Web;
 
 namespace CONTACTS.Models
 {
-    public class Gender
+    public class AllGender
     {
         [Key]
         public int Id { get; set; }
 
-        [DisplayName("Gender")]
+        //[DisplayName("Name of Gender")]
         public string Gendername { get; set; }
     }
 }
