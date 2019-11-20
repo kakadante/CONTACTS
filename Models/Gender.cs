@@ -12,7 +12,7 @@ namespace CONTACTS.Models
         [Key]
         public int Id { get; set; }
 
-        //[DisplayName("Name of Gender")]
+        [DisplayName("GENDER")]
         public string Gendername { get; set; }
     }
 }

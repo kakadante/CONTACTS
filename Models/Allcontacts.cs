@@ -18,7 +18,7 @@ namespace CONTACTS.Models
         [DisplayName("PHONE NUMBER")]
         public string Phone_Number { get; set; }
 
-        [DisplayName("Email")]
+        [DisplayName("EMAIL")]
         public string Email { get; set; }
 
 
