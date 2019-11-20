@@ -196,9 +196,13 @@
     <Compile Include="Migrations\201911150559336_Create_Tables.designer.cs">
       <DependentUpon>201911150559336_Create_Tables.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201911150602185_PopulateGender.cs" />
+    <None Include="Migrations\201911150602185_PopulateGender.iocs" />
     <Compile Include="Migrations\201911150602185_PopulateGender.designer.cs">
-      <DependentUpon>201911150602185_PopulateGender.cs</DependentUpon>
+      <DependentUpon>201911150602185_PopulateGender.iocs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911200720456_adddatatogender.cs" />
+    <Compile Include="Migrations\201911200720456_adddatatogender.designer.cs">
+      <DependentUpon>201911200720456_adddatatogender.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -296,7 +300,10 @@
       <DependentUpon>201911150559336_Create_Tables.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911150602185_PopulateGender.resx">
-      <DependentUpon>201911150602185_PopulateGender.cs</DependentUpon>
+      <DependentUpon>201911150602185_PopulateGender.iocs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911200720456_adddatatogender.resx">
+      <DependentUpon>201911200720456_adddatatogender.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
